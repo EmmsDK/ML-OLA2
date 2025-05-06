@@ -13,7 +13,7 @@ labels = {0: "Low", 1: "Medium", 2: "High"}
 
 def get_user_input():
     print("Please enter the following player details:")
-
+    
     # Numerical features (used as-is)
     age = int(input("Age: "))
     play_time = float(input("PlayTimeHours: "))
